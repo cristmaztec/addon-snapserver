@@ -23,7 +23,7 @@ RUN \
 RUN \
     apk add --no-cache \
         --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community/ \
-        snapcast-server=0.31.0-r0
+        snapcast-server
 
 # Install Snapweb
 RUN \
